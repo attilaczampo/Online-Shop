@@ -38,6 +38,7 @@ namespace MyApp
             Console.WriteLine(samsung.Name);
             samsung.SetQuantity();
             samsung.GetPrice();
+
             samsung.Message();
         }
     }
