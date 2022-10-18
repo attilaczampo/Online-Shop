@@ -6,39 +6,24 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            Phone iPhone = new Phone();
-            iPhone.Manufacturer = "Apple Inc.";
-            iPhone.Name = "IPhone 14 Pro";
-            Console.WriteLine(iPhone.Manufacturer);
-            Console.WriteLine(iPhone.Name);
-            iPhone.SetQuantity();
-            iPhone.GetPrice();
-            iPhone.Message();
+            Phone iPhone = new Phone("Apple Inc.", "IPhone 14 Pro", 2022, "Rose Gold");
             iPhone.ShippingAddress();
-            Console.WriteLine("********************");
-
-
-            PC omen = new PC();
-            omen.Manufacturer = "HP";
-            omen.Name = "HP Omen GamingLaptop";
-            Console.WriteLine(omen.Manufacturer);
-            Console.WriteLine(omen.Name);
-            omen.SetQuantity();
-            omen.GetPrice();
-            omen.Message();
-            omen.Question();
-            omen.ShippingAddress();
-            Console.WriteLine("********************");
-
-            TV samsung = new TV();
+            iPhone.OrderSummary();
+            iPhone.Message();
             
-            samsung.Manufacturer = "Samsung";
-            samsung.Name = "Samsung 3000 Series";
-            Console.WriteLine(samsung.Manufacturer);
-            Console.WriteLine(samsung.Name);
-            samsung.SetQuantity();
-            samsung.GetPrice();
+            Console.WriteLine("************************************************************");
 
+
+            PC omen = new PC("HP", "HP Omen GamingLaptop", 2022, "Crimson Red");
+            omen.ShippingAddress();
+            omen.OrderSummary();
+            omen.Message();
+            
+            Console.WriteLine("************************************************************");
+
+            TV samsung = new TV("Samsung Inc.", "Samsung 3000Series", 2021, "Black");
+            samsung.ShippingAddress();
+            samsung.OrderSummary();
             samsung.Message();
         }
     }

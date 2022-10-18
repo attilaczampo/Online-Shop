@@ -16,20 +16,35 @@ namespace MyApp
     //MEMBERS marked as ABSTRACT must be implemented by NON-ABSTRACT CLASSES that derive from the ABSTRACT CLASS.
     public abstract class Details
     {
-        public Details()
+        string Producer;
+        string Product;
+        int Year;
+        string color;
+        public Details(string producer, string product, int year, string color)
         {
+            this.Producer = producer;
+            this.Product = product;
+            this.Year = year;
+            this.color = color;
+
             Console.WriteLine("Here are your order details:");
-        }
-        public abstract void GetPrice();
-        public abstract void SetQuantity();
-        public virtual void Message()
-        {
-            Console.WriteLine("Thank you for your order!");
+            Console.WriteLine("\t");
+            Console.WriteLine("Producer: " + producer);
+            Console.WriteLine("Product: " + product);
+            Console.WriteLine("Product Year: " + year);
+            Console.WriteLine("Product Color: " + color);
+            Console.WriteLine("\t");
         }
 
-        public virtual void ShippingAddress()
+        public virtual void OrderSummary()
         {
-            Console.WriteLine("Piata Victoriei, 47A");
+            Console.WriteLine("Order Summary: ");
+            Console.WriteLine("\t");
+            Console.WriteLine("Quantity: ");
+            Console.WriteLine("Total: ");
         }
+        public abstract void Message();
+        public abstract void ShippingAddress();
+        
     }
 }

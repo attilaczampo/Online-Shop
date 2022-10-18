@@ -8,24 +8,29 @@ namespace MyApp
 {
     public class TV: Details
     {
-        public TV():base()
+        public TV(string producer, string product, int year, string color):base(producer, product, year, color)
         {
 
         }
-        public override void SetQuantity()
+        public override void OrderSummary()
         {
-            Console.WriteLine("Quantity: 3");
+            Console.WriteLine("Order Summary: ");
+            Console.WriteLine("\t");
+            Console.WriteLine("Quantity: 2 ");
+            Console.WriteLine("Total: 2999$ ");
         }
-        public override void GetPrice()
+
+        public override void ShippingAddress()
         {
-            Console.WriteLine("Total: 3500$");
+            Console.WriteLine("Shipping Details: ");
+            Console.WriteLine("\t");
+            Console.WriteLine("Address: Bulevardul Unirii, Nr. 108A, Bucuresti");
+            Console.WriteLine("\t");
         }
-        public string Name { get; set; }
-        public string Manufacturer { get; set; }
+
 
         public override void Message()
         {
-            base.Message();
             Console.WriteLine("You will get an email about your command and shipping info.");
         }
     }

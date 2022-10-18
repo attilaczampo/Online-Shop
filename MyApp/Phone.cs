@@ -8,29 +8,27 @@ namespace MyApp
 {
     public class Phone : Details
     {
-        public Phone():base()
+        public Phone(string producer, string product, int year, string color) :base(producer, product, year, color )
         { 
 
         }
-        public override void SetQuantity()
+        public override void OrderSummary()
         {
-            Console.WriteLine("Quantity: 4");
+            Console.WriteLine("Order Summary: ");
+            Console.WriteLine("\t");
+            Console.WriteLine("Quantity: 5 ");
+            Console.WriteLine("Total: 7000$");
         }
-        public override void GetPrice()
-        {
-            Console.WriteLine("Total: 6500$");
-        }
-
-        public string Name { get; set; }
-        public string Manufacturer { get; set; }
 
         public override void ShippingAddress()
         {
-            Console.WriteLine("Shipping Address: Str.Victoriei, Nr 32, Manastur, Cluj;");
+            Console.WriteLine("Shipping Details: ");
+            Console.WriteLine("\t");
+            Console.WriteLine("Address: " + "Str.Victoriei, Nr 32, Manastur, Cluj;");
+            Console.WriteLine("\t");
         }
         public override void Message()
         {
-            base.Message();
             Console.WriteLine("You will get an email about your command and shipping info.");
         }
 

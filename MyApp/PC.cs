@@ -8,30 +8,32 @@ namespace MyApp
 {
     public class PC : Details
     {
-        public PC():base()
+        public PC(string producer, string product, int year, string color):base(producer, product, year, color)
         {
-
         }
-        public override void SetQuantity()
-        {
-            Console.WriteLine("Quantity: 1");
-        }
-        public override void GetPrice()
-        {
-            Console.WriteLine("Total: 1800$");
-        }
-        public void Question()
-        {
-            bool f = true;
-            Console.WriteLine("Do you want to add guarantee for another 2 year?" + f);
-        }
-        
-        public string Name { get; set; }
-        public string Manufacturer { get; set; }
-
         public override void ShippingAddress()
         {
-            Console.WriteLine("Shipping Address: Bulevardul Unirii, 89B, Bucuresti;");
+            Console.WriteLine("Shipping Details: ");
+            Console.WriteLine("\t");
+            Console.WriteLine("Address: " + "Piata Victoriei, 143B, Marasti, Cluj");
+            Console.WriteLine("\t");
+        }
+        
+        public override void OrderSummary()
+        {
+            Console.WriteLine("Order Summary: ");
+            Console.WriteLine("\t");
+            Console.WriteLine("Quantity: 1 ");
+            Console.WriteLine("Total: 1899$ ");
+            Console.WriteLine("\t");
+            bool f = true;
+            Console.WriteLine("Do you want to add guarantee for another 2 year?" + " " + f);
+        }
+
+
+        public override void Message()
+        {
+            Console.WriteLine("Ssadasd");
         }
 
      
