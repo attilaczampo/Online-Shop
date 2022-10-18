@@ -6,39 +6,39 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            Phone iPhone = new Phone();
-            iPhone.Manufacturer = "Apple Inc.";
-            iPhone.Name = "IPhone 14 Pro";
-            Console.WriteLine(iPhone.Manufacturer);
-            Console.WriteLine(iPhone.Name);
-            iPhone.SetQuantity();
-            iPhone.GetPrice();
-            iPhone.Message();
+            Phone iPhone = new Phone("Apple Inc.", "IPhone 14 Pro", 2022, "Rose Gold");
+            //iPhone.ShowInfo();
+            //iPhone.SetQuantity();
+            //iPhone.GetPrice();
             iPhone.ShippingAddress();
-            Console.WriteLine("********************");
+            Console.WriteLine("\t");
+            iPhone.PaymentDetails();
+            Console.WriteLine("\t");
+            iPhone.Message();
+            Console.WriteLine("\t"); // new line in cmd
+            Console.WriteLine("************************************************************");
 
 
-            PC omen = new PC();
-            omen.Manufacturer = "HP";
-            omen.Name = "HP Omen GamingLaptop";
-            Console.WriteLine(omen.Manufacturer);
-            Console.WriteLine(omen.Name);
-            omen.SetQuantity();
-            omen.GetPrice();
-            omen.Message();
-            omen.Question();
+            PC omen = new PC("HP Inc.", "HP-Omen Gaming", 2022, "Crimson Red");
+            //omen.SetQuantity();
+            //omen.GetPrice();
             omen.ShippingAddress();
-            Console.WriteLine("********************");
+            Console.WriteLine("\t");
+            omen.PaymentDetails();
+            Console.WriteLine("\t");
+            omen.Message();
+            Console.WriteLine("\t");
+            Console.WriteLine("************************************************************");
 
-            TV samsung = new TV();
-            
-            samsung.Manufacturer = "Samsung";
-            samsung.Name = "Samsung 3000 Series";
-            Console.WriteLine(samsung.Manufacturer);
-            Console.WriteLine(samsung.Name);
-            samsung.SetQuantity();
-            samsung.GetPrice();
+            TV samsung = new TV("Samsung Corporation", "Samsung 3000Series", 2021, "Black");
+            samsung.ShippingAddress();
+            Console.WriteLine("\t");
+            samsung.PaymentDetails();
+            Console.WriteLine("\t");
             samsung.Message();
+            Console.WriteLine("\t");
+            Console.WriteLine("************************************************************");
+
         }
     }
 }
