@@ -8,6 +8,10 @@ namespace MyApp
 {
     public class Phone : Details
     {
+        public Phone():base()
+        {
+
+        }
         public Phone(string producer, string product, int year, string color) :base(producer, product, year, color )
         { 
 

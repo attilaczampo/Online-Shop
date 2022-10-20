@@ -20,6 +20,11 @@ namespace MyApp
         string Product;
         int Year;
         string color;
+
+        public Details()
+        {
+            Console.WriteLine("This is a parameterless constructor!");
+        }
         public Details(string producer, string product, int year, string color)
         {
             this.Producer = producer;

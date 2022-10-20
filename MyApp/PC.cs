@@ -33,7 +33,7 @@ namespace MyApp
 
         public override void Message()
         {
-            Console.WriteLine("Ssadasd");
+            Console.WriteLine("Thank you, for choosing us! You'll get an email about your order details!");
         }
 
      
