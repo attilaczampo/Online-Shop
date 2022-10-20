@@ -54,6 +54,12 @@ namespace MyApp
             Watch Casio = new Watch("GOLD");
             Watch Casio2 = new Watch(Casio);
 
+            Watch watch1 = new Watch("Silver");
+            Watch watch2 = new Watch(watch1);
+
+            Watch Orient = new Watch(Casio2);
+            Watch Orient2 = new Watch(watch2);
+
 
             // Private constructor here.
             // inaccessible due to its protection level
