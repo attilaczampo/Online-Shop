@@ -60,7 +60,7 @@ namespace MyApp
             Watch Orient = new Watch(Casio2);
             Watch Orient2 = new Watch(watch2);
 
-
+            // .....
             // Private constructor here.
             // inaccessible due to its protection level
 
@@ -72,6 +72,25 @@ namespace MyApp
 
             Food burger = new Food();
             Food pizza = new Food();
+
+            // Struct here:
+
+            // one way:
+
+            //Customer C1 = new Customer();
+
+            //C1.Id = 01;
+            //C1.Name = "John";
+            //C1.EmailAddress = "john@mail.me";
+
+            Customer C1 = new Customer();
+            Customer C2 = new Customer();
+
+            C1.getData("John", "john@mail.me", 0101);
+            C2.getData("Alice", "alice@hotmail.ru", 0102);
+
+            C1.showData();
+            C2.showData();
         }
     }
 }
