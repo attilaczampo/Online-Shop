@@ -1,4 +1,4 @@
-Struct VS Class
+# Struct VS Class
 
 The main difference between the 2 is that, STRUCTS are VALUE TYPES, while CLASSES are REFERENCE TYPES.
 
