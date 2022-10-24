@@ -19,3 +19,8 @@ PARAMETERLESS CONSTRUCTOR :
 
 INTERFACES :
       Just like classes, a struct can also implement from an interface.
+
+*** DEFAULT VALUES ***
+
+Default value for classes: null;
+Default value for struct can not be null.
