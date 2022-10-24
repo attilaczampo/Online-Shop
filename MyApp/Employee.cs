@@ -39,6 +39,7 @@ namespace MyApp
             Console.WriteLine("ID: " + this._id);
             Console.WriteLine("Name: " + this._name);
             Console.WriteLine("Role: " + this.Role);
+            Console.WriteLine("\t");
         }
     }
 }
