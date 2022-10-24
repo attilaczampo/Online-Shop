@@ -72,6 +72,7 @@ namespace MyApp
 
             Food burger = new Food();
             Food pizza = new Food();
+            Console.WriteLine("************************************************************");
 
             // Struct here:
 
@@ -86,11 +87,26 @@ namespace MyApp
             Customer C1 = new Customer();
             Customer C2 = new Customer();
 
-            C1.getData("John", "john@mail.me", 0101);
-            C2.getData("Alice", "alice@hotmail.ru", 0102);
+            C1.getData("John", "john@mail.me", 101);
+            C2.getData("Alice", "alice@hotmail.ru", 102);
 
             C1.showData();
             C2.showData();
+
+            Console.WriteLine("************************************************************");
+            Employee E1 = new Employee(1, "Kevin", "Developer");
+            E1.ShowEmployeeData();
+
+            Employee E2 = new Employee();
+            E2.ShowEmployeeData();
+
+            Employee E3 = new Employee
+            {
+                ID = 2,
+                Name = "Andrea",
+                Role = "Attorney"
+            };
+            E3.ShowEmployeeData();  
         }
     }
 }
