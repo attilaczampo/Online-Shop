@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyApp
+namespace Project_A
 {
-    public struct Employee
+    public struct EmployeeStruct
     {
         private int _id;
         private string _name;
         public string Role;
-      
+
+
         public int ID
         {
             get { return this._id; }
@@ -24,14 +25,15 @@ namespace MyApp
             set { this._name = value; }
         }
 
-        public Employee(int Id, string Name, string Role)
+
+        public EmployeeStruct(int Id, string Name, string Role)
         {
             this._id = Id;
             this._name = Name;
-            this.Role = Role;  
+            this.Role = Role;
         }
 
-        public void ShowEmployeeData()
+        public void ShowEmployeeStructData()
         {
             Console.WriteLine("\t");
             Console.WriteLine("EMPLOYEE DETAILS: ");

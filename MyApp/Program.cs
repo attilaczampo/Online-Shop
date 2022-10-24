@@ -74,39 +74,8 @@ namespace MyApp
             Food pizza = new Food();
             Console.WriteLine("************************************************************");
 
-            // Struct here:
-
-            // one way:
-
-            //Customer C1 = new Customer();
-
-            //C1.Id = 01;
-            //C1.Name = "John";
-            //C1.EmailAddress = "john@mail.me";
-
-            Customer C1 = new Customer();
-            Customer C2 = new Customer();
-
-            C1.getData("John", "john@mail.me", 101);
-            C2.getData("Alice", "alice@hotmail.ru", 102);
-
-            C1.showData();
-            C2.showData();
-
-            Console.WriteLine("************************************************************");
-            Employee E1 = new Employee(1, "Kevin", "Developer");
-            E1.ShowEmployeeData();
-
-            Employee E2 = new Employee();
-            E2.ShowEmployeeData();
-
-            Employee E3 = new Employee
-            {
-                ID = 2,
-                Name = "Andrea",
-                Role = "Attorney"
-            };
-            E3.ShowEmployeeData();  
+   
+         
         }
     }
 }
