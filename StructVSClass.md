@@ -16,3 +16,6 @@ LOGIC:
       
 PARAMETERLESS CONSTRUCTOR :
       * Both can have parameterless constructors.
+
+INTERFACES :
+      Just like classes, a struct can also implement from an interface.
