@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyApp
 {
-    public class PC : Details
+    public class PC : Products
     {
         public PC(string producer, string product, int year, string color):base(producer, product, year, color)
         {

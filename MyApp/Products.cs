@@ -14,18 +14,18 @@ namespace MyApp
     //to be a BASE CLASS of other CLASSES, not instantiated on its own.
 
     //MEMBERS marked as ABSTRACT must be implemented by NON-ABSTRACT CLASSES that derive from the ABSTRACT CLASS.
-    public abstract class Details
+    public abstract class Products
     {
         string Producer;
         string Product;
         int Year;
         string color;
 
-        public Details()
+        public Products()
         {
             Console.WriteLine("This is a parameterless constructor!");
         }
-        public Details(string producer, string product, int year, string color)
+        public Products(string producer, string product, int year, string color)
         {
             this.Producer = producer;
             this.Product = product;

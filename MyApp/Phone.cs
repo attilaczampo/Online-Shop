@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyApp
 {
-    public class Phone : Details
+    public class Phone : Products
     {
         public Phone():base()
         {
