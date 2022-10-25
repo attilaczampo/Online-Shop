@@ -1,0 +1,32 @@
+﻿
+AS Operator
+
+The 'as' operator, attempts to cast an object to a specific type, adn returns null, if it fails.
+
+We cannot type-cast base type to derived types.
+
+Student student = new Student
+{
+	...
+	...
+}
+
+// Casting :
+
+JuniorStudent juniorStudent = student as JuniorStudent; --> casting is going to fail, so juniorStudent will be null.
+
+if (juniorStudent == null)
+	Cwriteline("juniorStudent is null")
+else
+	cw-line("juniorStudent is not null")
+
+...
+...
+...
+...
+
+
+	What is the difference between Cast operator and As operator ?
+
+	Cast operator throws an exception if the conversion fails (crasheli az appot)
+	As operator returns NULL if the conversion fails.
