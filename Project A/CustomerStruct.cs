@@ -11,15 +11,12 @@ namespace Project_A
         public string Name;
         public string EmailAddress;
         public int Id;
-
-
         public void getCustomerStructData(string name, string email, int id)
         {
             this.Name = name;
             this.EmailAddress = email;
             this.Id = id;
         }
-
         public void showCustomerStructData()
         {
             Console.WriteLine("CUSTOMER DETAILS:");

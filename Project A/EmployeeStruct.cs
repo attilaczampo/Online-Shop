@@ -11,28 +11,22 @@ namespace Project_A
         private int _id;
         private string _name;
         public string Role;
-
-
         public int ID
         {
             get { return this._id; }
             set { this._id = value; }
         }
-
         public string Name
         {
             get { return this._name; }
             set { this._name = value; }
         }
-
-
         public EmployeeStruct(int Id, string Name, string Role)
         {
             this._id = Id;
             this._name = Name;
             this.Role = Role;
         }
-
         public void ShowEmployeeStructData()
         {
             Console.WriteLine("\t");

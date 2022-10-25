@@ -22,7 +22,6 @@ namespace ProjectA
             };
             E3.ShowEmployeeStructData();
 
-
             CustomerStruct C1 = new CustomerStruct();
             CustomerStruct C2 = new CustomerStruct();
             CustomerStruct C3 = new CustomerStruct();
