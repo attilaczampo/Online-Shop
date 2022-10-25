@@ -20,7 +20,11 @@ namespace ProjectB
         
         public void PrintParamConstr()
         {
-            Console.WriteLine("Your watch is: " + WatchBrand + " " + WatchDescription + " " + WatchPrice); 
+            Console.WriteLine("\t");
+            Console.WriteLine("Your watch is: " + WatchBrand);
+            Console.WriteLine("Watch description: " + WatchDescription);
+            Console.WriteLine("Watch price: " + WatchPrice);
+            Console.WriteLine("\t");
         }
     }
 }

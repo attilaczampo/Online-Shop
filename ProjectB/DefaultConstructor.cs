@@ -8,12 +8,18 @@ namespace ProjectB
 {
     public class DefaultConstructor
     {
-        public string Vehicle;
-        public string Model;
-        public int Year;
+        public int Id, Age;
+        public string Name, Address;
+        public bool isOnHoliday;
         public DefaultConstructor()
         {
 
+        }
+        public void PrintDefConstr()
+        {
+            Console.WriteLine("\t");
+            Console.WriteLine("DEFAULT CONSTRUCTOR / PARAMETERLESS CONSTRUCTOR");
+            Console.WriteLine("\t");
         }
 
     }
