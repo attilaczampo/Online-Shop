@@ -20,8 +20,6 @@ namespace ProjectB
             Console.WriteLine("Is the student on holiday? " + student.isOnHoliday);
             Console.WriteLine("\t");
 
-           
-
             // Parameterized constructor
 
             ParameterizedConstructor watch = new ParameterizedConstructor("Rolex", "The best quality luxury watches", 300000);
@@ -33,7 +31,6 @@ namespace ProjectB
             CopyConstructor car1 = new CopyConstructor("BMW", "Blue", 2016);
 
             CopyConstructor car2 = new CopyConstructor(car1);
-
 
             // Private constructor
 

@@ -20,7 +20,7 @@ namespace ProjectB
 
         static StaticConstructor()
         {
-            interestRate = 8.7f;
+            interestRate = 8.9f;
         }
 
         public void PrintStaticConstr()
