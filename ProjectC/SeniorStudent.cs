@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ProjectC
 {
-    internal class SeniorStudent
+    internal class SeniorStudent: Student
     {
+        public int seniorTasks;
     }
 }

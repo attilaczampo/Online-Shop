@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ProjectC
 {
-    public class Student
+    internal class Student
     {
+        public string studentName;
+        public int studentID;
     }
 }

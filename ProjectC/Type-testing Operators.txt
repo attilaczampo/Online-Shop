@@ -1,0 +1,47 @@
+﻿
+
+
+What is the difference between "is" and "as" keyword in C#?
+
+Is operator returns true if an object can be cast to a specific type, otherwise false.
+As operator attempts to cast an object to a specific type, and returns null if it fails.
+
+
+The 'is' operator
+
+Ha a 'student' objektumunk "Student" tipu (base class), az 'is' operator csak akkor lesz igaz, ha az objektumunk Student tipusu.
+
+Ha az 'if' kondicioba, a 'student' objektumunkat mas tipusuhoz probaljuk csatoltatni mint "Student" tipus,
+a kondiciom soha nem lesz igaz.
+
+Ha a 'student' objektumunk derivalt tipusu (JuniorStudent/SeniorStudent), az 'is' operator igaz lesz ha
+az objektumunk sajat tipusu (JuniorStudent vagy SeniorStudent) es akkor is igaz lesz, ha az objektumunk base tipusu is. (Student)
+
+Student student = new Student
+{
+	...
+	...
+}
+
+if (student is Student) --> igaz
+	..
+else
+	..
+
+if (student is JrStudent) --> nem lesz igaz.
+if (student is SenStudent) --> nem lesz igaz.
+
+--------------------------------------------------------------------
+
+Student student = new JrStudent
+{
+	...
+	...
+}
+
+if (student is Student) --> igaz
+	..
+if (student is JrStudent) --> igaz
+	..
+
+-----------------------------------------------------------------------
