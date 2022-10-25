@@ -23,7 +23,6 @@ namespace MyApp
             Console.WriteLine("Quantity: 5 ");
             Console.WriteLine("Total: 7000$");
         }
-
         public override void ShippingAddress()
         {
             Console.WriteLine("Shipping Details: ");
@@ -35,6 +34,5 @@ namespace MyApp
         {
             Console.WriteLine("You will get an email about your command and shipping info.");
         }
-
     }
 }

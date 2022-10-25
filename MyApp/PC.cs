@@ -18,7 +18,6 @@ namespace MyApp
             Console.WriteLine("Address: " + "Piata Victoriei, 143B, Marasti, Cluj");
             Console.WriteLine("\t");
         }
-        
         public override void OrderSummary()
         {
             Console.WriteLine("Order Summary: ");
@@ -29,8 +28,6 @@ namespace MyApp
             bool f = true;
             Console.WriteLine("Do you want to add guarantee for another 2 year?" + " " + f);
         }
-
-
         public override void Message()
         {
             Console.WriteLine("Thank you, for choosing us! You'll get an email about your order details!");
