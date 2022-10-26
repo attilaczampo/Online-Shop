@@ -14,8 +14,9 @@ The app also focuses on showing different CONSTRUCTOR TYPES. We have multiple ty
 
 Multiple Projects - each project showcasing C# 'hot' topics.
 
+MyApp project - Abstract Classes, virtual methods, inheritance.
 Project A - Structs 
-Project B - Abstract Classes, virtual methods, inheritance.
-Procet C - Constructor Types
-Project D - Is operator
-Project E - As operator
+Project B - Constructor Types
+Procet C - Is operator
+Project D - As operator
+
