@@ -13,3 +13,9 @@ We added 2 more new classes: Watch.cs and Food.cs.
 The app also focuses on showing different CONSTRUCTOR TYPES. We have multiple types: parameterless, parameterized, default, copy, private and static constructor.
 
 Multiple Projects - each project showcasing C# 'hot' topics.
+
+Project A - Structs 
+Project B - Abstract Classes, virtual methods, inheritance.
+Procet C - Constructor Types
+Project D - Is operator
+Project E - As operator
