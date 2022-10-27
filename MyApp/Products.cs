@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace MyApp
 {
     // ABSTRACT
@@ -14,20 +15,24 @@ namespace MyApp
     //to be a BASE CLASS of other CLASSES, not instantiated on its own.
 
     //MEMBERS marked as ABSTRACT must be implemented by NON-ABSTRACT CLASSES that derive from the ABSTRACT CLASS.
-    public abstract class Products
+    public class Products
     {
-        string Producer;
+        // Fields nevek kicsi betuvel
+        // Property nevek nagy betuvel
+
+         
+        string producer;
         string Product;
         int Year;
         string color;
 
         public Products()
         {
-            Console.WriteLine("This is a parameterless constructor!");
+            
         }
         public Products(string producer, string product, int year, string color)
         {
-            this.Producer = producer;
+            this.producer = producer;
             this.Product = product;
             this.Year = year;
             this.color = color;
@@ -43,13 +48,11 @@ namespace MyApp
 
         public virtual void OrderSummary()
         {
+            Products p = new Products()
             Console.WriteLine("Order Summary: ");
             Console.WriteLine("\t");
-            Console.WriteLine("Quantity: ");
-            Console.WriteLine("Total: ");
         }
-        public abstract void Message();
-        public abstract void ShippingAddress();
+        
         
     }
 }

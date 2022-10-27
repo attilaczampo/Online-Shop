@@ -6,16 +6,13 @@ using System.Threading.Tasks;
 
 namespace ProjectB
 {
-    public class StaticConstructor2
+    public static class StaticConstructor2
     {
         static StaticConstructor2()
         {
             Console.WriteLine("\t");
             Console.WriteLine("This is the STATIC CONSTRUCTOR");
         }
-        public StaticConstructor2()
-        {
-            Console.WriteLine("This is the NON-STATIC CONSTRUCTOR");
-        }
+      
     }
 }

@@ -39,7 +39,7 @@ namespace ProjectC
                 studentName = "Andrea",
                 studentID = 5
             };
-
+            if(student1.GetType().Equals(typeof(Student))
             if(student1 is Student)
                 Console.WriteLine(student1.studentName + " is a student.");
             else

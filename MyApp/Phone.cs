@@ -18,21 +18,20 @@ namespace MyApp
         }
         public override void OrderSummary()
         {
-            Console.WriteLine("Order Summary: ");
-            Console.WriteLine("\t");
+            base.OrderSummary();
             Console.WriteLine("Quantity: 5 ");
             Console.WriteLine("Total: 7000$");
         }
-        public override void ShippingAddress()
-        {
-            Console.WriteLine("Shipping Details: ");
-            Console.WriteLine("\t");
-            Console.WriteLine("Address: " + "Str.Victoriei, Nr 32, Manastur, Cluj;");
-            Console.WriteLine("\t");
-        }
-        public override void Message()
-        {
-            Console.WriteLine("You will get an email about your command and shipping info.");
-        }
+        //public override void ShippingAddress()
+        //{
+        //    Console.WriteLine("Shipping Details: ");
+        //    Console.WriteLine("\t");
+        //    Console.WriteLine("Address: " + "Str.Victoriei, Nr 32, Manastur, Cluj;");
+        //    Console.WriteLine("\t");
+        //}
+        //public override void Message()
+        //{
+        //    Console.WriteLine("You will get an email about your command and shipping info.");
+        //}
     }
 }

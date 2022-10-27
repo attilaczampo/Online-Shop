@@ -41,7 +41,7 @@ namespace ProjectB
 
 
             // Static constructor
-
+            var x = StaticConstructor.interestRate;
             Console.WriteLine("\t");
             Console.WriteLine("STATIC CONSTRUCTOR");
             Console.WriteLine("\t");

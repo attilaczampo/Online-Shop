@@ -11,10 +11,7 @@ namespace ProjectB
         public int Id, Age;
         public string Name, Address;
         public bool isOnHoliday;
-        public DefaultConstructor()
-        {
-
-        }
+       
         public void PrintDefConstr()
         {
             Console.WriteLine("\t");

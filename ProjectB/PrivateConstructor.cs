@@ -8,10 +8,17 @@ namespace ProjectB
 {
     public class PrivateConstructor
     {
-        string Name;
+        static PrivateConstructor instance;
         private PrivateConstructor()
         {
             Console.WriteLine("This is the private constructor");
+        }
+
+        public static PrivateConstructor GetInstance()
+        {
+            if(instance == null)
+                instance= new PrivateConstructor();
+            return instance;
         }
     }
 }
