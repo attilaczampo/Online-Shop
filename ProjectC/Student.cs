@@ -8,7 +8,7 @@ namespace ProjectC
 {
     internal class Student
     {
-        public string studentName;
-        public int studentID;
+        internal string studentName;
+        internal int studentID;
     }
 }
