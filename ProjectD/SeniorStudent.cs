@@ -8,6 +8,6 @@ namespace ProjectD
 {
     internal class SeniorStudent: Student   
     {
-        public int seniorTasks;
+        internal int seniorTasks;
     }
 }
