@@ -57,7 +57,7 @@ namespace ProjectC
 
             Console.WriteLine("\t");
 
-
+            // ...
             // Derived type: Senior student
 
             Student student2 = new SeniorStudent
