@@ -33,7 +33,6 @@ The main difference between the 2 is that, STRUCTS are VALUE TYPES, while CLASSE
 ## INTERFACES :
       Just like classes, a struct can also implement from an interface.
 
-## *** DEFAULT VALUES ***
-
-Default value for classes: null;
-Default value for struct can not be null.
+## DEFAULT VALUES:
+      *Default value for classes: null;
+      *Default value for struct can not be null. The default value of a struct is the value produced by setting all value type fields to their default value and all reference type fields to null
