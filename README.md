@@ -45,7 +45,11 @@ Here are some of them:
   <li>Private Constructor</li>
 </ul>
 
-The app also focuses on showing different CONSTRUCTOR TYPES. We have multiple types: parameterless, parameterized, default, copy, private and static constructor.
+## Project C
+
+Type-checking. "is" Operator.
+
+Here, we look at Type-checking with the "is" operator. Basically, what the "is" keyword does, it returns true if an object can be cast to a specific type, otherwise false.
 
 Multiple Projects - each project showcasing C# 'hot' topics.
 
