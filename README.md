@@ -1,5 +1,9 @@
 # Online-Shop
-Basic console app, to show relations through Inheritance; Abstract Classes; Virtual Methods; Constructor Types.
+
+## About The Project
+
+This app is a C# console app, in which are presented multiple C# topics, like Inheritance, Abstract classes, Constructor types and so on.
+Each topic is presented in it's own project assembly, making the code easier to read.
 
 This app shows the relation of classes through INHERITANCE.
 
