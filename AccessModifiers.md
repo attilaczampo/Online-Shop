@@ -1,4 +1,4 @@
-# AccessModifiers in C#
+# Access Modifiers in C#
 
 
 All types(classes,structs,records) and types members have a accessibility level.
@@ -15,3 +15,16 @@ Here are the access modifiers you can use for a type or member when you declare 
   <li>Protected Internal</li>
   <li>Private Protected</li>
 </ol>
+
+
+# Class, records and structs accessibilities
+
+Classes, records and structs that are declared directly, within a namespace can either be <i>public</i> or <i>internal</i>.
+
+<i>Internal</i> is the default if no access modifier is declared.
+
+# Class, record, and struct member accessibility
+
+Class members and record members can have all 6 access modifier: public, private, protected, internal, protected internal, private protected.
+
+Structs members can't be declared as protected, protected internal and private protected, because structs don't support inheritance.
