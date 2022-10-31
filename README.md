@@ -51,6 +51,8 @@ Type-checking. "is" Operator.
 
 Here, we look at Type-checking with the "is" operator. Basically, what the "is" keyword does, it returns true if an object can be cast to a specific type, otherwise false.
 
+We have 3 classes: Student, JuniorStudent and SeniorStudent. The latest two, are derived classes, that inherit from Student class. Check the code for more.
+
 ## Project D
 
 Type casting. "As" Operator.
@@ -63,6 +65,8 @@ What is the difference between Cast operator and As operator ?
 
 Cast operator throws an exception if the conversion fails (it makes the app to crash)
 As operator returns NULL if the conversion fails.
+
+We have 3 classes: Student, JuniorStudent and SeniorStudent. The latest two, are derived classes, that inherit from Student class. Check the code for more.
 
 
 
