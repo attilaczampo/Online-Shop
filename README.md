@@ -16,7 +16,7 @@ Each topic is presented in it's own project assembly, making the code easier to 
   <li>ProjectD</li>
 </ul>  
 
-### MyApp
+## MyApp
 
 This project assembly is about classes and the relation between them. In here, we talk about topics like Inheritance, Base calls, Abstract Classes, Virtaul Methods.
 
@@ -27,6 +27,23 @@ This classes inherit through CONSTRUCTORS and METHODS(). We've looked and saw th
 between abstract methods and virtual methods.The main difference between the two, is that an abstract method needs implementation, the method must be overriden, while the virtual method can be overriden, but is not necesarry. You can leave a virtual method with it's default implementation, without to override with a new implementation.
 
 Also, we defined a PARAMETERIZED CONSTRUCTOR in the Base class, and we saw the use of the "base" keyword in the derived classes.
+
+## Project A
+
+In this assembly, we showcased the structs.
+
+## Project B
+
+Constructor types. Here, we defined what a constructor is and what kind of constructors exist in C#.
+Here are some of them: 
+
+<ul>
+  <li>Default/Parameterless Constructor</li>
+  <li>Parameterized Constructor</li>
+  <li>Copy Constructor</li>
+  <li>Static Constructor</li>
+  <li>Private Constructor</li>
+</ul>
 
 The app also focuses on showing different CONSTRUCTOR TYPES. We have multiple types: parameterless, parameterized, default, copy, private and static constructor.
 
