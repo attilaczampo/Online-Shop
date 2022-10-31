@@ -16,13 +16,18 @@ Each topic is presented in it's own project assembly, making the code easier to 
   <li>ProjectD</li>
 </ul>  
 
+### MyApp
+
+This project assembly is about classes and the relation between them. In here, we talk about topics like Inheritance, Base calls, Abstract Classes, Virtaul Methods.
+
 We have multiple classes, the Details.cs class being the BASE Class.
 The Phone, PC and TV classes inherit from the base class, which is an ABSTRACT Class.
 
 This classes inherit through CONSTRUCTORS and METHODS(). We've looked and saw the differences
-between abstract methods and virtual methods. Also, we defined a PARAMETERIZED CONSTRUCTOR in the Base class, and we saw the use of the "base" keyword in the derived classes.
+between abstract methods and virtual methods.The main difference between the two, is that an abstract method needs implementation, the method must be overriden, while the virtual method can be overriden, but is not necesarry. You can leave a virtual method with it's default implementation, without to override with a new implementation.
 
-We added 2 more new classes: Watch.cs and Food.cs. 
+Also, we defined a PARAMETERIZED CONSTRUCTOR in the Base class, and we saw the use of the "base" keyword in the derived classes.
+
 The app also focuses on showing different CONSTRUCTOR TYPES. We have multiple types: parameterless, parameterized, default, copy, private and static constructor.
 
 Multiple Projects - each project showcasing C# 'hot' topics.
