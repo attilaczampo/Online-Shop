@@ -2,6 +2,14 @@
 
 The main difference between the 2 is that, STRUCTS are VALUE TYPES, while CLASSES are REFERENCE TYPES.
 
+### Bonus
+
+The Memory is divided in two areas: 
+      Stack(local) and Heap(instance). 
+      
+  On the Stack are stored the value types.
+  On the Heap, the reference types are stored.
+
 ## INHERITANCE:
       @ STRUCTS : - Don't support inheritance; 
                   - A Struct is not allowed to inherit from another struct or class.
