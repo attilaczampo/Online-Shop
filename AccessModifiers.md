@@ -23,8 +23,11 @@ Here are the access modifiers you can use for a type or member when you declare 
 ## 3. Protected
   The type/ member can be accessed only by the code in the same class or a class the derives from another class.
 ## 4. Internal
+  The type/ member can be accessed by any code inside it's own assembly. It cannot be accessed in other assemblies.
 ## 5. Protected Internal
+  The type/ member can be accessed by any code inside it's own assembly and/ or in a derived class in other assembly.
 ## 6. Private Protected
+  The type/ member can be accessed only by the code in the same class/ sturct and in a class that derives from this.
 
 
 # Class, records and structs accessibilities
