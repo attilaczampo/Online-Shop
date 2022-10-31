@@ -5,7 +5,16 @@
 This app is a C# console app, in which are presented multiple C# topics, like Inheritance, Abstract classes, Constructor types and so on.
 Each topic is presented in it's own project assembly, making the code easier to read.
 
-This app shows the relation of classes through INHERITANCE.
+
+<!-- TABLE OF CONTENTS -->
+## Table of contents / Project assemblies
+<ul>
+  <li>MyApp</li>
+  <li>ProjectA</li>
+  <li>ProjectB</li>
+  <li>ProjectC</li>
+  <li>ProjectD</li>
+</ul>  
 
 We have multiple classes, the Details.cs class being the BASE Class.
 The Phone, PC and TV classes inherit from the base class, which is an ABSTRACT Class.
