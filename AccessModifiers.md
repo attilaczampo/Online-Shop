@@ -16,6 +16,16 @@ Here are the access modifiers you can use for a type or member when you declare 
   <li>Private Protected</li>
 </ol>
 
+## 1. Public
+  The type / member can be accessed by any other code inside of the assembly or other assemblies.
+## 2. Private
+  The type/ member can be accessed only by the code in the same class or struct. 
+## 3. Protected
+  The type/ member can be accessed only by the code in the same class or a class the derives from another class.
+## 4. Internal
+## 5. Protected Internal
+## 6. Private Protected
+
 
 # Class, records and structs accessibilities
 
