@@ -51,11 +51,18 @@ Type-checking. "is" Operator.
 
 Here, we look at Type-checking with the "is" operator. Basically, what the "is" keyword does, it returns true if an object can be cast to a specific type, otherwise false.
 
-Multiple Projects - each project showcasing C# 'hot' topics.
+## Project D
 
-MyApp project - Abstract Classes, virtual methods, inheritance.
-Project A - Structs 
-Project B - Constructor Types
-Procet C - Is operator
-Project D - As operator
+Type casting. "As" Operator.
+
+The 'as' operator, attempts to cast an object to a specific type, adn returns null, if it fails.
+
+We cannot type-cast base type to derived types.
+
+What is the difference between Cast operator and As operator ?
+
+Cast operator throws an exception if the conversion fails (it makes the app to crash)
+As operator returns NULL if the conversion fails.
+
+
 
